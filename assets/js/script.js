@@ -12,6 +12,7 @@ module.exports = (function() {
 		this.id 		= config.id;
 		this.element 	= config.element;
 		this.$element 	= $(config.element);
+		this._borderWidths = {};
 
 		// store config values
 		this.config = config;
@@ -110,12 +111,42 @@ module.exports = (function() {
 
 		// show or hide box using selected animation
 		if( this.config.animation === 'fade' ) {
-			this.$element.fadeToggle( 'slow' );
+			this.$element.fadeToggle();
 		} else {
-			this.$element.slideToggle( 'slow' );
+			this.prepareBorderAnimation();
+			this.$element.slideToggle({ 'progress': this.animateBorder.bind(this) });
 		}
 
 		return true;
+	};
+
+	Box.prototype.prepareBorderAnimation = function() {
+		var borders = [ "borderTopWidth", "borderBottomWidth", "borderLeftWidth", "borderRightWidth" ];
+		this._borderWidths = {};
+
+		console.log( this.$element.css('borderTopWidth' ) );
+		for( var i=0; i<borders.length; i++ ) {
+			this._borderWidths[borders[i]] = parseInt( this.$element.css(borders[i]) );
+			if( this.visible ) {
+				this.element.style[borders[i]] = 0;
+			}
+		}
+	};
+
+	Box.prototype.animateBorder = function( animation, progress, remainingMs) {
+		for(var border in this._borderWidths ) {
+
+			if( this._borderWidths[border] == 0 ) {
+				continue;
+			}
+
+			var borderSize = ( this._borderWidths[border] * progress );
+			if( ! this.visible ) {
+				borderSize = this._borderWidths[border] - borderSize;
+			}
+
+			this.element.style[border] = ( borderSize ) + "px";
+		}
 	};
 
 	// show the box
