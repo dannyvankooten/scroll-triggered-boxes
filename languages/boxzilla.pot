@@ -13,50 +13,6 @@ msgstr ""
 "X-Poedit-SourceCharset: UTF-8\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: src/default-actions.php:14, src/default-actions.php:26
-msgid "Boxzilla"
-msgstr ""
-
-#: src/default-actions.php:15
-msgid "Box"
-msgstr ""
-
-#: src/default-actions.php:16
-msgid "Add New"
-msgstr ""
-
-#: src/default-actions.php:17
-msgid "Add New Box"
-msgstr ""
-
-#: src/default-actions.php:18
-msgid "Edit Box"
-msgstr ""
-
-#: src/default-actions.php:19
-msgid "New Box"
-msgstr ""
-
-#: src/default-actions.php:20
-msgid "All Boxes"
-msgstr ""
-
-#: src/default-actions.php:21
-msgid "View Box"
-msgstr ""
-
-#: src/default-actions.php:22
-msgid "Search Boxes"
-msgstr ""
-
-#: src/default-actions.php:23
-msgid "No Boxes found"
-msgstr ""
-
-#: src/default-actions.php:24
-msgid "No Boxes found in Trash"
-msgstr ""
-
 #: src/admin/class-admin.php:88
 msgid "Duplicate box"
 msgstr ""
@@ -129,7 +85,7 @@ msgstr ""
 msgid "Subscribe to our newsletter"
 msgstr ""
 
-#: src/admin/class-admin.php:675
+#: src/admin/class-admin.php:678
 msgid "Boxes"
 msgstr ""
 
@@ -157,10 +113,6 @@ msgstr ""
 msgid "Dismiss this notice."
 msgstr ""
 
-#: src/licensing/class-api.php:164
-msgid "The Boxzilla server returned an invalid response."
-msgstr ""
-
 #: src/admin/views/extensions.php:4
 msgid "Available Add-On Plugins"
 msgstr ""
@@ -179,70 +131,6 @@ msgstr ""
 
 #: src/admin/views/extensions.php:19
 msgid "If not, please click here: %s."
-msgstr ""
-
-#: src/admin/views/settings.php:20, src/admin/views/metaboxes/box-option-controls.php:229
-msgid "Enable test mode?"
-msgstr ""
-
-#: src/admin/views/settings.php:22, src/admin/views/metaboxes/box-option-controls.php:209, src/admin/views/metaboxes/box-option-controls.php:220, src/admin/views/metaboxes/box-option-controls.php:231
-msgid "Yes"
-msgstr ""
-
-#: src/admin/views/settings.php:23, src/admin/views/metaboxes/box-option-controls.php:210, src/admin/views/metaboxes/box-option-controls.php:221, src/admin/views/metaboxes/box-option-controls.php:232
-msgid "No"
-msgstr ""
-
-#: src/admin/views/settings.php:24, src/admin/views/metaboxes/box-option-controls.php:233
-msgid "If test mode is enabled, all boxes will show up regardless of whether a cookie has been set."
-msgstr ""
-
-#: src/licensing/views/license-form.php:8
-msgid "License & Plugin Updates"
-msgstr ""
-
-#: src/licensing/views/license-form.php:15
-msgid "Warning! You are <u>not</u> receiving plugin updates for the following plugin(s):"
-msgstr ""
-
-#: src/licensing/views/license-form.php:25
-msgid "To fix this, please activate your license using the form below."
-msgstr ""
-
-#: src/licensing/views/license-form.php:45
-msgid "License Key"
-msgstr ""
-
-#: src/licensing/views/license-form.php:47
-msgid "Enter your license key.."
-msgstr ""
-
-#: src/licensing/views/license-form.php:56
-msgid "The license key received when purchasing your premium Boxzilla plan. <a href=\"%s\">You can find it here</a>."
-msgstr ""
-
-#: src/licensing/views/license-form.php:61
-msgid "License Status"
-msgstr ""
-
-#: src/licensing/views/license-form.php:70
-msgid "INACTIVE"
-msgstr ""
-
-#: src/licensing/views/license-form.php:70
-msgid "you are <strong>not</strong> receiving plugin updates"
-msgstr ""
-
-#: src/licensing/views/license-form.php:66
-msgid "ACTIVE"
-msgstr ""
-
-#: src/licensing/views/license-form.php:66
-msgid "you are receiving plugin updates"
-msgstr ""
-
-#: src/licensing/views/license-form.php:82
-msgid "Save Changes"
 msgstr ""
 
 #: src/admin/views/metaboxes/box-appearance-controls.php:2
@@ -357,27 +245,27 @@ msgstr ""
 msgid "of the following conditions."
 msgstr ""
 
-#: src/admin/views/metaboxes/box-option-controls.php:73, src/admin/views/metaboxes/box-option-controls.php:254
+#: src/admin/views/metaboxes/box-option-controls.php:73, src/admin/views/metaboxes/box-option-controls.php:261
 msgid "Remove rule"
 msgstr ""
 
-#: src/admin/views/metaboxes/box-option-controls.php:85, src/admin/views/metaboxes/box-option-controls.php:265
+#: src/admin/views/metaboxes/box-option-controls.php:85, src/admin/views/metaboxes/box-option-controls.php:272
 msgid "is"
 msgstr ""
 
-#: src/admin/views/metaboxes/box-option-controls.php:86, src/admin/views/metaboxes/box-option-controls.php:266
+#: src/admin/views/metaboxes/box-option-controls.php:86, src/admin/views/metaboxes/box-option-controls.php:273
 msgid "is not"
 msgstr ""
 
-#: src/admin/views/metaboxes/box-option-controls.php:87, src/admin/views/metaboxes/box-option-controls.php:267
+#: src/admin/views/metaboxes/box-option-controls.php:87, src/admin/views/metaboxes/box-option-controls.php:274
 msgid "contains"
 msgstr ""
 
-#: src/admin/views/metaboxes/box-option-controls.php:88, src/admin/views/metaboxes/box-option-controls.php:268
+#: src/admin/views/metaboxes/box-option-controls.php:88, src/admin/views/metaboxes/box-option-controls.php:275
 msgid "does not contain"
 msgstr ""
 
-#: src/admin/views/metaboxes/box-option-controls.php:91, src/admin/views/metaboxes/box-option-controls.php:271
+#: src/admin/views/metaboxes/box-option-controls.php:91, src/admin/views/metaboxes/box-option-controls.php:278
 msgid "Leave empty for any or enter (comma-separated) names or ID's"
 msgstr ""
 
@@ -429,7 +317,7 @@ msgstr ""
 msgid "Auto-show box?"
 msgstr ""
 
-#: src/admin/views/metaboxes/box-option-controls.php:166
+#: src/admin/views/metaboxes/box-option-controls.php:166, src/admin/views/metaboxes/box-option-controls.php:216
 msgid "Never"
 msgstr ""
 
@@ -437,15 +325,15 @@ msgstr ""
 msgid "Yes, after %s seconds on the page."
 msgstr ""
 
-#: src/admin/views/metaboxes/box-option-controls.php:168
+#: src/admin/views/metaboxes/box-option-controls.php:168, src/admin/views/metaboxes/box-option-controls.php:217
 msgid "Yes, when at %s of page height"
 msgstr ""
 
-#: src/admin/views/metaboxes/box-option-controls.php:169
+#: src/admin/views/metaboxes/box-option-controls.php:169, src/admin/views/metaboxes/box-option-controls.php:218
 msgid "Yes, when at element %s"
 msgstr ""
 
-#: src/admin/views/metaboxes/box-option-controls.php:169
+#: src/admin/views/metaboxes/box-option-controls.php:169, src/admin/views/metaboxes/box-option-controls.php:218
 msgid "Example: #comments"
 msgstr ""
 
@@ -490,25 +378,141 @@ msgid "Leave empty if you want to show the box on all screen sizes."
 msgstr ""
 
 #: src/admin/views/metaboxes/box-option-controls.php:207
-msgid "Auto-hide?"
+msgid "Auto-hide on scroll-up?"
+msgstr ""
+
+#: src/admin/views/metaboxes/box-option-controls.php:209, src/admin/views/metaboxes/box-option-controls.php:227, src/admin/views/metaboxes/box-option-controls.php:238, src/admin/views/settings.php:22
+msgid "Yes"
+msgstr ""
+
+#: src/admin/views/metaboxes/box-option-controls.php:210, src/admin/views/metaboxes/box-option-controls.php:228, src/admin/views/metaboxes/box-option-controls.php:239, src/admin/views/settings.php:23
+msgid "No"
 msgstr ""
 
 #: src/admin/views/metaboxes/box-option-controls.php:211
 msgid "Hide box again when visitors scroll back up?"
 msgstr ""
 
-#: src/admin/views/metaboxes/box-option-controls.php:218
+#: src/admin/views/metaboxes/box-option-controls.php:214
+msgid "Auto-hide on scroll?"
+msgstr ""
+
+#: src/admin/views/metaboxes/box-option-controls.php:225
 msgid "Show close icon?"
 msgstr ""
 
-#: src/admin/views/metaboxes/box-option-controls.php:223
+#: src/admin/views/metaboxes/box-option-controls.php:230
 msgid "If you decide to hide the close icon, make sure to offer an alternative way to close the box."
 msgstr ""
 
-#: src/admin/views/metaboxes/box-option-controls.php:224
+#: src/admin/views/metaboxes/box-option-controls.php:231
 msgid "Example: "
+msgstr ""
+
+#: src/admin/views/metaboxes/box-option-controls.php:236, src/admin/views/settings.php:20
+msgid "Enable test mode?"
+msgstr ""
+
+#: src/admin/views/metaboxes/box-option-controls.php:240, src/admin/views/settings.php:24
+msgid "If test mode is enabled, all boxes will show up regardless of whether a cookie has been set."
 msgstr ""
 
 #: src/admin/views/metaboxes/need-help.php:2
 msgid "Please make sure to look at the following available resources."
+msgstr ""
+
+#: src/default-actions.php:14, src/default-actions.php:26
+msgid "Boxzilla"
+msgstr ""
+
+#: src/default-actions.php:15
+msgid "Box"
+msgstr ""
+
+#: src/default-actions.php:16
+msgid "Add New"
+msgstr ""
+
+#: src/default-actions.php:17
+msgid "Add New Box"
+msgstr ""
+
+#: src/default-actions.php:18
+msgid "Edit Box"
+msgstr ""
+
+#: src/default-actions.php:19
+msgid "New Box"
+msgstr ""
+
+#: src/default-actions.php:20
+msgid "All Boxes"
+msgstr ""
+
+#: src/default-actions.php:21
+msgid "View Box"
+msgstr ""
+
+#: src/default-actions.php:22
+msgid "Search Boxes"
+msgstr ""
+
+#: src/default-actions.php:23
+msgid "No Boxes found"
+msgstr ""
+
+#: src/default-actions.php:24
+msgid "No Boxes found in Trash"
+msgstr ""
+
+#: src/licensing/class-api.php:164
+msgid "The Boxzilla server returned an invalid response."
+msgstr ""
+
+#: src/licensing/views/license-form.php:8
+msgid "License & Plugin Updates"
+msgstr ""
+
+#: src/licensing/views/license-form.php:15
+msgid "Warning! You are <u>not</u> receiving plugin updates for the following plugin(s):"
+msgstr ""
+
+#: src/licensing/views/license-form.php:25
+msgid "To fix this, please activate your license using the form below."
+msgstr ""
+
+#: src/licensing/views/license-form.php:45
+msgid "License Key"
+msgstr ""
+
+#: src/licensing/views/license-form.php:47
+msgid "Enter your license key.."
+msgstr ""
+
+#: src/licensing/views/license-form.php:56
+msgid "The license key received when purchasing your premium Boxzilla plan. <a href=\"%s\">You can find it here</a>."
+msgstr ""
+
+#: src/licensing/views/license-form.php:61
+msgid "License Status"
+msgstr ""
+
+#: src/licensing/views/license-form.php:70
+msgid "INACTIVE"
+msgstr ""
+
+#: src/licensing/views/license-form.php:70
+msgid "you are <strong>not</strong> receiving plugin updates"
+msgstr ""
+
+#: src/licensing/views/license-form.php:66
+msgid "ACTIVE"
+msgstr ""
+
+#: src/licensing/views/license-form.php:66
+msgid "you are receiving plugin updates"
+msgstr ""
+
+#: src/licensing/views/license-form.php:82
+msgid "Save Changes"
 msgstr ""

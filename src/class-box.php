@@ -100,6 +100,9 @@ class Box {
 			'trigger_time_on_page'  => 0,
 			'animation'             => 'fade',
 			'auto_hide'             => 0,
+			'trigger_hide'          => '',
+			'trigger_hide_percentage'    => 85,
+			'trigger_hide_element'       => '',
 			'screen_size_condition' => array(
 				'condition' => 'larger',
 				'value'     => 0,
@@ -217,6 +220,18 @@ class Box {
 			}
 		}
 
+		$trigger_hide = false;
+		if ( $box->options['trigger_hide'] ) {
+			$trigger_hide = array(
+				'method' => $this->options['trigger_hide'],
+			);
+
+			if ( isset( $this->options[ 'trigger_hide_' . $this->options['trigger_hide'] ] ) ) {
+				$trigger_hide['value'] = $this->options[ 'trigger_hide_' . $this->options['trigger_hide'] ];
+			}
+		}
+
+
 		// build screenWidthCondition object (or null)
 		$screen_width_condition = null;
 		if ( $box->options['screen_size_condition']['value'] > 0 ) {
@@ -238,6 +253,7 @@ class Box {
 				'dismissed' => absint( $box->options['cookie']['dismissed'] ),
 			),
 			'rehide'               => (bool) $box->options['auto_hide'],
+			'triggerHide'         => $trigger_hide,
 			'position'             => $box->options['css']['position'],
 			'screenWidthCondition' => $screen_width_condition,
 			'closable'             => ! ! $box->options['closable'],

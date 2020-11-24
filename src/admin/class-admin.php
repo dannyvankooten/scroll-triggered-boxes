@@ -654,6 +654,9 @@ class Admin {
 		$opts['trigger']                        = sanitize_text_field( $opts['trigger'] );
 		$opts['trigger_percentage']             = absint( $opts['trigger_percentage'] );
 		$opts['trigger_element']                = sanitize_text_field( $opts['trigger_element'] );
+		$opts['trigger_hide']                        = sanitize_text_field( $opts['trigger_hide'] );
+		$opts['trigger_hide_percentage']             = absint( $opts['trigger_hide_percentage'] );
+		$opts['trigger_hide_element']                = sanitize_text_field( $opts['trigger_hide_element'] );
 		$opts['screen_size_condition']['value'] = intval( $opts['screen_size_condition']['value'] );
 
 		return $opts;
